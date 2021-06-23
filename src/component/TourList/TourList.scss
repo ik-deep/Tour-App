@@ -1,0 +1,30 @@
+.tourlist{
+    width: 70vh;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+@media screen and (min-width:700px){
+    .tourlist{
+        width: 90vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width:800px){
+    .tourlist{
+       width: 120vh;
+        grid-template-columns: repeat(3,1fr);
+      
+    }
+}
+@media screen and (min-width:1200px){
+    .tourlist{
+       width: 190vh;
+        grid-template-columns: repeat(4,1fr);
+      
+    }
+}
+
